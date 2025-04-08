@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+           <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#image-gallery">Gallery</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+           </nav>
+           <header>
+                <h1 class="bold">Welcome to My Website</h1>
+                <p>This is a simple HTML template.</p>
+           </header>
+           <div id="home">
+                <h2 class="bold-italic">Home</h2>
+                <p>This is the home section of the website.</p>
+           </div>
+           <div id="about">
+                 <h2 class="bold-italic">About Us</h2>
+                 <p>This is the about section of the website.</p>
+           </div>
+           <div id="image-gallery">
+                 <h2 class="bold-italic">Image Gallery</h2>
+                 <p>This is the image gallery section of the website.</p>
+                 <div class="image-container">
+                    <img src="Images/Image 1.jpg" alt="Image a monkey on a telescope" loading="lazy">
+                    <img src="Images/Image 2.jpg" alt="Image of a pelican" loading="lazy">
+                    <img src="Images/Image 3.jpg" alt="Image picnic snacks" loading="lazy">
+                    <img src="Images/Image 4.jpg" alt="Image of a train in snow" loading="lazy">
+                </div>
+           </div>
+           <div id="services">
+                 <h2 class="bold-italic">Our Services</h2>
+                 <p>This is the services section of the website.</p>
+           </div>
+           <div id="contact">
+                 <h2 class="bold-italic">Contact Us</h2>
+                 <p>This is the contact section of the website.</p>
+                 <fieldset>
+                    <legend>Contact Us</legend>
+                    <form class="contact-form">
+                        <input type="text" name="name" placeholder="Enter Your Name" required><br>
+                        <input type="email" name="email" placeholder="Enter Your Email Address" required><br>
+                        <textarea name="message" rows="5" placeholder="Your Message" required></textarea><br>
+                        <button type="submit">Send</button>
+                    </form>
+                 </fieldset>
+           </div>
+        </main>
+        <footer>
+            <p>© 2025. My Website. All rights reserved</p>
+        </footer>
+    </body>
+</html>
