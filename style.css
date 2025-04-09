@@ -142,7 +142,12 @@ footer {
     .nav-list {
         flex-direction: row;
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
+        width: 100%;
+        padding: 0;
+    }
+    nav a {
+        margin: auto;
     }
     div {
         width: 90%;
